@@ -13,7 +13,7 @@ services:
     image: centrifugo/centrifugo
     command: centrifugo -c config.json --engine=redis --redis_address=redis://dragonfly:6379
     ports:
-      - "8000:8000"
+      - "3009:3009"
     volumes:
       - "./config:/centrifugo"
     ulimits:
@@ -36,7 +36,7 @@ services:
       context: ./project/web
       dockerfile: Dockerfile
     ports:
-      - "8080:4173"
+      - "4173:4173"
 
 volumes:
   surrealdb:
