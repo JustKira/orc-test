@@ -1,0 +1,16 @@
+tags: ['sveltekit']
+language: 'typescript'
+stack: 'frontend'
+type: 'application'
+
+project:
+  name: 'admin'
+  description: 'A SvelteKit ADMIN application'
+
+tasks:
+  dev:
+    command: 'bun run dev'
+  build:
+    command: 'bun run build'
+  preview:
+    command: 'bun run preview'

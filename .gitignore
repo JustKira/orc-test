@@ -1,0 +1,10 @@
+
+# moon
+.moon/cache
+.moon/docker
+
+# docker volume
+surrealdb
+dragonflydata
+
+node_modules
